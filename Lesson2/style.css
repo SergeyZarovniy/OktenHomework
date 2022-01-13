@@ -1,0 +1,51 @@
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.boxes2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.box{
+    background-color: orange;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 31px 26px 10px 0px;
+}
+.box2{
+    background-color: orange;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    box-shadow: darkgrey 31px 26px 5px 0px;
+}
+p{
+    padding-top: 120px;
+}
+
+.firstPart{
+    box-sizing: border-box;
+    margin-top: 150px;
+    background-color: darkgrey;
+    height: 100px;
+    padding: 25px;
+}
+.secondPart{
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    height: 100px;
+    padding-top: 29px;
+}
+.thirdPart{
+    background-color: darkolivegreen;
+    width: 300px;
+    height: 300px;
+}
+.fourthPart{
+    background-color: mediumpurple;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
