@@ -1,0 +1,19 @@
+body {
+    background-image:url("https://static01.nyt.com/images/2021/01/30/business/29musk-print/29musk-1-mediumSquareAt3X.jpg");
+}
+
+h1 {
+    text-align: center;
+}
+.musk_information{
+    width: 38%;
+    font-style: italic;
+    font-size: 18px;
+}
+h2{
+    margin-top:150px ;
+}
+li{
+    margin-top: 30px;
+}
+
