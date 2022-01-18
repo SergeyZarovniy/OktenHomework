@@ -1,0 +1,35 @@
+.widget{
+    height: 300px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding-top: 115px;
+}
+.widgetBox{
+    display: flex;
+    justify-content:space-between;
+}
+
+.widgets{
+    width: 30%;
+    margin-top: 25px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    height: 300px;
+    box-sizing: border-box;
+    padding-top: 110px;
+}
+.contact{
+    background-color: midnightblue;
+    height: 600px;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 300px;
+}
