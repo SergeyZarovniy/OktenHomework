@@ -1,0 +1,50 @@
+#header{
+    background-color: cadetblue;
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-top: 45px;
+    border: 2px solid black;
+}
+.mainContent{
+    /*margin-top: 100px;*/
+    display: flex;
+    flex-direction: row;
+}
+#menu{
+    background-color: cadetblue;
+    width: 25%;
+    height: 450px;
+    border: 2px solid black;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
+.posts{
+    width: 75%;
+    margin-left: 25px;
+}
+.post{
+    background-color:cadetblue;
+    border: 2px solid black;
+    height: 220px;
+    box-sizing: border-box;
+    padding-top: 150px;
+    margin: 10px;
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
+#footer{
+    background-color: cadetblue;
+    border: 2px solid black;
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
