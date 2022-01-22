@@ -6,3 +6,40 @@
 :root{
     --black-color:#000;
 }
+.wrapper{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.top_bar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo,
+.nav_menu{
+    display: flex;
+    align-items: center;
+}
+.nav_menu{
+    column-gap: 22px;
+}
+.nav_button{
+    margin-left: 5px;
+    display: flex;
+    column-gap: 18px;
+}
+.nav_menu__item a{
+    font-size: 15px;
+    line-height: 16px;
+    color: var(--black-color);
+    text-decoration: none;
+}
+.nav_btn{
+    height: 52px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 25px;
+}
