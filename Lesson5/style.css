@@ -165,4 +165,46 @@
     border: none;
 }
 
+.container_plans__wrapper{
+    background: #FDECED;
+    height: 705px;
+    margin-top: 126px;
+}
+.container_plans{
+  padding-top: 88px;
+}
+
+.container_plan__tittle{
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 58px;
+}
+.container_plan__card{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+    margin-top: 82px;
+}
+.card_text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+.companies_container{
+    margin-top: 129px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.content_text{
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 36px;
+}
+.companies_logos{
+    display: flex;
+}
+
 
