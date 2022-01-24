@@ -126,3 +126,43 @@
 .finance_img{
     padding-top: 43px;
 }
+.switch_container{
+    margin-top: 45px;
+}
+.switch_container__tittle{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    padding-top: 88px;
+}
+
+.container_wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+    margin-top: 82px;
+}
+.card_tittle{
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+}
+.card_text{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.switch_container__button{
+    margin-top: 71px;
+    background: #F7B2B7;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 12px 30px;
+    border: none;
+}
+
+
