@@ -206,5 +206,124 @@
 .companies_logos{
     display: flex;
 }
+.hub_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+    column-gap: 120px;
+}
+.hub_img{
+    margin-top: 108px;
+}
+.hub_content{
+    margin-top: 191px;
+}
+.hub_tittle{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+}
+.hub_text{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 40px;
+}
+.button_hub{
+    background: #F7B2B7;
+    border-radius: 100px;
+    margin-top: 79px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 12px 30px;
+    border: none;
+}
+.speakTo_wrapper{
+   height: 499px;
+}
+.speakTo_container{
+    display: flex;
+    justify-content: space-between;
+    background: #8BD4D6;
+    border-radius: 10px;
+    margin-top: 108px;
+    height: 283px;
+}
+.speakTo_header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+
+}
+.speakTo_content{
+    padding: 89px;
+}
+.speakTo_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    padding-top: 18px;
+}
+.btn_speak{
+    background: #000000;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 12px 31px;
+    color: white;
+    border: none;
+    margin-top: 129px;
+    margin-right: 120px;
+}
+.footer_wrapper{
+    background: #302E3F;
+    border-radius: 0px;
+    height: 600px;
+}
+
+.header_text{
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.footer_header{
+    display: flex;
+    column-gap: 19px;
+    align-items: center;
+    padding-top: 45px;
+}
+.content_blocks{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.item_tittle{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.item_text{
+    font-size: 14px;
+    line-height: 16px;
+    color: #C5E9EA;
+    padding-top: 12px;
+}
+
+.footer_information{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+}
+.information{
+    display: flex;
+   column-gap: 27px;
+}
 
 
