@@ -163,6 +163,7 @@
     line-height: 25px;
     padding: 12px 30px;
     border: none;
+    cursor: pointer;
 }
 
 .container_plans__wrapper{
@@ -238,6 +239,7 @@
     line-height: 25px;
     padding: 12px 30px;
     border: none;
+    cursor: pointer;
 }
 .speakTo_wrapper{
    height: 499px;
@@ -280,6 +282,7 @@
     border: none;
     margin-top: 129px;
     margin-right: 120px;
+    cursor: pointer;
 }
 .footer_wrapper{
     background: #302E3F;
