@@ -54,7 +54,6 @@
     padding: 14px 29px;
     cursor: pointer;
 }
-
 .talk:hover{
     background: #0B2330;
     color: white;
@@ -63,7 +62,6 @@
     background: #0B2330;
     color: white;
 }
-
 .context_represent{
     display: flex;
     justify-content: space-between;
@@ -122,4 +120,77 @@ position: relative;
     padding: 15px 29px;
     cursor: pointer;
     margin-left: 15px;
+}
+.companies_container{
+   margin-top: 460px;
+    text-align: center;
+
+}
+.companies_tittle{
+    margin: 0 auto;
+    width: 547px;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: #0B2330;
+}
+.companies_logos{
+   margin-top: 60px;
+}
+.rectangle_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #51CEBC;
+    margin-top: 192px;
+    height: 494px;
+    margin-left: 36px;
+    margin-right: 36px;
+   border-radius: 30px;
+}
+.rectangle_image{
+    padding-top: 56px;
+}
+.rectangle_tittle{
+    max-width: 757px;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+    padding-top: 114px;
+    padding-right: 121px;
+}
+.rectangle_text{
+    font-size: 22px;
+    line-height: 32px;
+    color: #0B2330;
+    padding-top: 35px;
+    padding-right: 121px;
+    max-width: 557px;
+}
+.spring_container{
+    margin-top: 151px;
+    text-align: center;
+}
+.spring_container__tittle{
+    font-size: 34px;
+    line-height: 40px;
+    margin: 0 auto;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+    max-width: 711px;
+}
+.spring_container__image{
+    margin-top: 57px;
+}
+.spring_container__btn{
+    background: #F9C600;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0B2330;
+    padding: 15px 29px;
+    cursor: pointer;
+    margin-top: 127px;
 }
