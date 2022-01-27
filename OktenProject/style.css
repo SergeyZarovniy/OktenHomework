@@ -257,7 +257,6 @@ position: relative;
 .block_item__content{
     max-width: 484px;
 }
-
 .block_item__tittle{
     font-size: 34px;
     line-height: 40px;
@@ -285,4 +284,28 @@ position: relative;
 .block_item__btn:hover{
     background-color: #0B2330;
     color: white;
+}
+.block_btn{
+    display: flex;
+    column-gap: 8px;
+}
+.btn_text{
+    background: #E7EAEB;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #61757E;
+    padding:4px 8px;
+}
+.btn_text__active{
+    background: #FE9F28;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #0B2330;
+    padding: 4px 8px;
 }
