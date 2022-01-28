@@ -1,104 +1,113 @@
-* {
+*{
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: #6A7981;
+}
+.project_wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+    height: 15000px;
 }
 .top_bar{
     display: flex;
     justify-content: space-between;
 }
+.top_bar__image{
+    margin-top: 16px;
+    margin-left: 32px;
+}
 .nav_menu{
     display: flex;
-    justify-content: space-between;
-    column-gap: 56px;
-    padding-top: 28px;
+    margin-top: 28px;
+    column-gap: 48px;
 }
-.top_bar__image{
-    padding-top: 16px;
-    padding-left: 32px;
+a{
+    text-decoration: none;
 }
-.nav_button{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 24px;
-    padding-top: 15px ;
-    padding-bottom: 15px;
-    padding-right: 32px;
-}
-.nav_menu__item{
-    font-size: 16px;
-    line-height: 24px;
-    color:#0B2330;
-    cursor: pointer;
-}
-.start{
-    background:#0B2330;
-    border: 1px solid #0B2330;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 24px;
-    color: white;
-    padding: 14px 29px;
-    cursor: pointer;
-}
-.sign,
-.talk{
-    background: white;
-    border: 1px solid #0B2330;
-    box-sizing: border-box;
-    border-radius: 4px;
+.nav_menu__item a {
     font-size: 16px;
     line-height: 24px;
     color: #0B2330;
-    padding: 14px 29px;
-    cursor: pointer;
 }
-.talk:hover{
-    background: #0B2330;
-    color: white;
+.nav_button{
+    margin-top: 15px;
+    display: flex;
+    column-gap: 24px;
+    margin-right: 32px;
+}
+.sign,
+.talk {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0B2330;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px 29px;
 }
 .sign:hover{
     background: #0B2330;
     color: white;
+    border-radius: 4px;
+}
+.talk:hover{
+    background: #0B2330;
+    color: white;
+    border-radius: 4px;
+}
+.start{
+    background: #0B2330;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 15px 29px;
+    cursor: pointer;
+}
+.context_container{
+    margin-top: 16px;
 }
 .context_represent{
+    margin-left: 147px;
     display: flex;
     justify-content: space-between;
-
 }
 .context_represent__image{
     position: relative;
 }
 .background_image{
     position:absolute;
+    margin-left: 8px;
 }
 .relative_image{
-position: relative;
+    position: relative;
     z-index: 5;
-    top: 139px;
-    right: 110px;
+    top: 172px;
+    right: 118px;
 }
 .context_represent__content{
     margin-top: 154px;
-    margin-left: 147px;
     max-width: 436px;
 }
 .content_tittle{
-    font-weight: normal;
     font-size: 60px;
     line-height: 64px;
     letter-spacing: 0.6px;
     color: #0B2330;
 }
 .content_text{
-    padding-top: 32px;
-    font-weight: normal;
     font-size: 22px;
     line-height: 32px;
     color: #375361;
+    margin-top: 32px;
 }
-.content_btn__start{
+.content_btn__start {
     margin-top: 38px;
     background: #F9C600;
     border: 1px solid #F9C600;
@@ -122,9 +131,8 @@ position: relative;
     margin-left: 15px;
 }
 .companies_container{
-   margin-top: 460px;
+    margin-top: 460px;
     text-align: center;
-
 }
 .companies_tittle{
     margin: 0 auto;
@@ -134,8 +142,8 @@ position: relative;
     letter-spacing: 0.42px;
     color: #0B2330;
 }
-.companies_logos{
-   margin-top: 60px;
+.companies_logo{
+    margin-top: 59px;
 }
 .rectangle_container{
     display: flex;
@@ -143,9 +151,9 @@ position: relative;
     background-color: #51CEBC;
     margin-top: 192px;
     height: 494px;
-    margin-left: 36px;
-    margin-right: 36px;
-   border-radius: 30px;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-radius: 30px;
 }
 .rectangle_image{
     padding-top: 56px;
@@ -168,7 +176,7 @@ position: relative;
     max-width: 557px;
 }
 .spring_container{
-    margin-top: 151px;
+    margin-top: 191px;
     text-align: center;
 }
 .spring_container__tittle{
@@ -192,7 +200,7 @@ position: relative;
     color: #0B2330;
     padding: 15px 29px;
     cursor: pointer;
-    margin-top: 127px;
+    margin-top: 113px;
 }
 .target_container{
     display: flex;
@@ -201,13 +209,13 @@ position: relative;
     height: 537px;
     max-width: 1260px;
     margin: 0 auto ;
-    margin-top: 167px;
-
+    margin-top: 160px;
+    margin-left: 148px;
 }
 .target_img{
     position: relative;
     right: 110px;
-
+    top: 64px;
 }
 .target_content__tittle{
     font-size: 42px;
@@ -227,7 +235,7 @@ position: relative;
 }
 .spring_solution__container{
     margin-top: 136px;
-    margin-left: 325px;
+    margin-left: 148px;
 }
 .spring_solution__text{
     font-size: 14px;
@@ -246,13 +254,12 @@ position: relative;
     color: #0B2330;
 }
 .solution_block{
-    margin-top: 238px;
+    margin-top: 219px;
 }
 .solution_block__item{
     display: flex;
-    column-gap: 345px;
-    margin-top: 140px;
-
+    column-gap: 263px;
+    margin-top: 121px;
 }
 .block_item__content{
     max-width: 484px;
@@ -318,12 +325,12 @@ position: relative;
 .features_container{
     background: #F2EDE7;
     border-radius: 0px;
-    height: 860px;
+    height: 960px;
     margin-top: 152px;
 }
 .features_container__content{
     margin-top: 96px;
-    margin-left: 322px;
+    margin-left: 122px;
 }
 .content_header__tittle{
     font-size: 60px;
@@ -334,19 +341,19 @@ position: relative;
     padding-top: 10px;
 }
 .features_content__box{
-    margin-top: 120px;
+    margin-top: 122px;
     display: flex;
-    column-gap: 230px;
+    column-gap: 141px;
 
 }
 .integration_container__content{
     margin-top: 184px;
-    margin-left: 322px;
+    margin-left: 148px;
     display: flex;
     justify-content: space-between;
 }
 .integration_content__main{
-width: 664px;
+    width: 669px;
 }
 .integration_content__tittle{
     font-size: 34px;
@@ -371,21 +378,8 @@ width: 664px;
     color: #0B2330;
     padding: 15px 29px;
     margin-top: 50px;
+    cursor: pointer;
 }
-.card_container{
-    margin-top: 240px;
-    display: flex;
-    margin-left: 330px;
-    height: 584px;
-}
-.card_container__first{
-    background: #F2EDE7;
-    border-radius: 10px 0px 0px 10px;
-
-}
-.card_first__tittle{
-    font-size: 24px;
-    line-height: 32px;
-    color: #0B2330;
-    margin-top: 17px;
+.integration_content__image{
+    align-items: center;
 }
