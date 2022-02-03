@@ -2,60 +2,60 @@
 // true, false.
 //     Вивести кожну змінну за допомогою: console.log , alert, document.write
 
-// let string = 'hello';
-// console.log(string)
-// alert(string)
-// document.write(string)
-//
-// let string1 = 'owu';
-// console.log(string1)
-// alert(string1)
-// document.write(string1)
-//
-// let string2 = 'com';
-// console.log(string2)
-// alert(string2)
-// document.write(string2)
-//
-// let string3 = 'ua';
-// console.log(string3)
-// alert(string3)
-// document.write(string3)
-//
-// let number = 1;
-// console.log(number)
-// alert(number)
-// document.write(number)
-//
-// let number1 = 10;
-// console.log(number1)
-// alert(number1)
-// document.write(number1)
-//
-// let number2 = -999;
-// console.log(number2)
-// alert(number2)
-// document.write(number2)
-//
-// let number3 = 123;
-// console.log(number3)
-// alert(number3)
-// document.write(number3)
-//
-// const number4 = 3.14;
-// console.log(number4)
-// alert(number4)
-// document.write(number4)
-//
-// let bool = true;
-// console.log(bool)
-// alert(bool)
-// document.write('bool')
-//
-// let bool2 = false;
-// console.log(bool2)
-// alert(bool2)
-// document.write(bool2)
+let string = 'hello';
+console.log(string)
+alert(string)
+document.write(string + "<br/>")
+
+let string1 = 'owu';
+console.log(string1)
+alert(string1)
+document.write(string1 + "<br/>")
+
+let string2 = 'com';
+console.log(string2)
+alert(string2)
+document.write(string2 + "<br/>")
+
+let string3 = 'ua';
+console.log(string3)
+alert(string3)
+document.write(string3 + "<br/>")
+
+let number = 1;
+console.log(number)
+alert(number)
+document.write(number)
+
+let number1 = 10;
+console.log(number1)
+alert(number1)
+document.write(number1)
+
+let number2 = -999;
+console.log(number2)
+alert(number2)
+document.write(number2)
+
+let number3 = 123;
+console.log(number3)
+alert(number3)
+document.write(number3)
+
+const number4 = 3.14;
+console.log(number4)
+alert(number4)
+document.write(number4)
+
+let bool = true;
+console.log(bool)
+alert(bool)
+document.write('bool')
+
+let bool2 = false;
+console.log(bool2)
+alert(bool2)
+document.write(bool2)
 
 // 2)- Переприсвоїти кожній змінній з завдання значення на довільне.
 //     Вивести кожну змінну за допомогою: console.log , alert, document.write
