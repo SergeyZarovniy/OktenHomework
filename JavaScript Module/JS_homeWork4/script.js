@@ -110,6 +110,37 @@
 // }
 // objectArray(users);
 
+//
+// some classwork
+
+// - створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
+//
+// function minNumber (number1,number2,number3) {
+//       if (number1 < number2 && number1 < number3){
+//     console.log(number1);
+//  } else if (number2 < number1 && number2 < number3) {
+//           console.log(number2);
+//       } else  {
+//           console.log(number3);
+//       }
+// };
+// minimumNumber(550,789,300)
+
+// - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
+
+// function maxNumber (number1,number2,number3) {
+//     if (number1 > number2 && number1 > number3) {
+//         console.log(number1);
+//     } else if (number2 > number1 && number2 > number3) {
+//         console.log(number2);
+//     } else {
+//         console.log(number3)
+//     };
+// };
+//
+// maxNumber(500,236,4788);
+
+
 
 
 
