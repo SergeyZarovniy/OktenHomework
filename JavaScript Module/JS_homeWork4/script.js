@@ -141,9 +141,68 @@
 // maxNumber(500,236,4788);
 
 
+// - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
 
+// let numArray = [15615,545,57,1551,15874,8778,9895,5441];
+//
+// function maxNum (arr) {
+//     let maxNumber = arr[0]
+//     for (const maxNumberElement of arr) {
+//         if (maxNumberElement > maxNumber) {
+//             maxNumber = maxNumberElement;
+//         }
+//     }
+//     return maxNumber
+// }
+// console.log(maxNum(numArray))
 
 
+// - створити функцію яка повертає найменьше число з масиву
+
+// let numArray = [15615,545,57,1551,15874,8778,9895,5441];
+//
+// function minNum (arr) {
+//     let minNum = arr[0];
+//     console.log(minNum)
+//     for (const minNumElement of arr) {
+//         if (minNumElement < minNum){
+//             minNum = minNumElement;
+//         }
+//     }
+//     return minNum
+// }
+//
+// console.log(minNum(numArray))
+
+
+// - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+
+// let numArray = [15615,545,57,1551,15874,8778,9895,5441];
+//
+// function arraySum (arr) {
+//     let sum = 0;
+//     for (const arrElement of arr) {
+//        sum = arrElement + sum
+//     }
+//     return sum
+// }
+//
+// console.log(arraySum(numArray));
+
+
+// - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
+
+// let numArray = [20,50,100,200];
+//
+// function middleNum (arr) {
+//     let sum = 0;
+//     for (const arrElement of arr) {
+//         sum = arrElement + sum
+//     }
+//     return sum/arr.length
+// }
+//
+// console.log(middleNum(numArray))
 
 
