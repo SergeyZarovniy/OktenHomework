@@ -88,3 +88,34 @@
 //     }
 // }
 // userList(users)
+
+//Some ClassWork!!!!!
+
+// - створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
+
+// let minNumber = (num1,num2,num3) => {
+//     if (num1 < num2 && num1 < num3) {
+//         console.log(num1)
+//     } else if (num2 < num1 && num2 < num3) {
+//         console.log(num2)
+//     } else {
+//         console.log(num3)
+//     }
+// }
+//
+// minNumber(100,200,300);
+
+
+// - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
+
+// let maxNumber = (num1,num2,num3) => {
+//     if (num1 > num2 && num1 > num3) {
+//         console.log(num1)
+//     } else if (num2 > num1 && num2 > num3) {
+//         console.log(num2)
+//     } else {
+//         console.log(num3)
+//     }
+// }
+//
+// maxNumber(100,200,300);
