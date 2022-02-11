@@ -119,3 +119,63 @@
 // }
 //
 // maxNumber(100,200,300);
+
+
+// - створити функцію яка повертає найбільше число з масиву
+
+// let arr = [1515,12,26385,78,1563,4548,521,2136,44];
+//
+// let maxNum = (arr) => {
+//      let max = arr[0];
+//         for (const value of arr) {
+//         if (value > max) {
+//            max = value;
+//         }
+//     }
+//     return max
+// }
+// console.log(maxNum(arr))
+
+
+// - створити функцію яка повертає найменьше число з масиву
+//
+// let arr = [1515,12,26385,78,1563,4548,521,2136,44];
+//
+// let minNum = (arr) => {
+//     let min = arr[0];
+//     for (const minValue of arr) {
+//         if (minValue < min) {
+//             min = minValue;
+//         }
+//     }
+//     return min
+// }
+//
+// console.log(minNum(arr))
+
+// - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+
+// let arr = [10,20,30,50];
+//
+// let arrSum = (arr) => {
+//     let sum = 0
+//     for (let i = 0; i < arr.length; i++) {
+//        sum =  sum + arr[i];
+//     }
+//     return sum
+// }
+//
+// console.log(arrSum(arr));
+
+// - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
+
+// let arr = [10,50,25];
+//
+// let calculateFunc = (arr) => {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum = sum + arr[i] / arr.length
+//     }
+//     return sum
+// }
+// console.log(calculateFunc(arr))
