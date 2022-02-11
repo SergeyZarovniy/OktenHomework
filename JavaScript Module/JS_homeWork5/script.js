@@ -179,3 +179,46 @@
 //     return sum
 // }
 // console.log(calculateFunc(arr))
+
+// - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
+
+// let numbList = (...arg) => {
+// let min = arg[0];
+// let max = arg[0];
+//     for (const value of arg) {
+//         if (value > max) {
+//             max = value
+//         }  if (value < min) {
+//             min = value
+//         }
+//     }
+//     console.log(max)
+//     return min
+// }
+//
+// console.log(numbList(25,36,15,5555))
+
+// - створити функцію яка заповнює масив рандомними числами
+//
+// let arrayInner  = (nums) => {
+//     let emptyArr = [];
+//     for (let i = 0; i < nums; i++) {
+//        emptyArr.push(Math.floor(Math.random()*100))
+//     }
+//     return emptyArr
+// }
+//
+// console.log(arrayInner(15))
+
+
+// - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
+
+// let arrayInner = (length,limit) => {
+//     let emptyArr = [];
+//     for (let i = 0; i < length; i++) {
+//         emptyArr.push(Math.floor(Math.random()*limit))
+//     }
+//     return emptyArr
+// }
+//
+// console.log(arrayInner(15,10))
