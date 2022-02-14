@@ -212,28 +212,28 @@
 
 
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
-
-// let arrayInner = (length,limit) => {
-//     let emptyArr = [];
-//     for (let i = 0; i < length; i++) {
-//         emptyArr.push(Math.floor(Math.random()*limit))
-//     }
-//     return emptyArr
-// }
 //
-// console.log(arrayInner(15,10))
-
-
-// - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
-
-// let arr  = [10,20,30,40,50];
+// // let arrayInner = (length,limit) => {
+// //     let emptyArr = [];
+// //     for (let i = 0; i < length; i++) {
+// //         emptyArr.push(Math.floor(Math.random()*limit))
+// //     }
+// //     return emptyArr
+// // }
+// //
+// // console.log(arrayInner(15,10))
 //
-// let reversArray = (arr) => {
-//    let reversArray = [];
-//     for (let i = arr.length-1; i >=0 ; i--) {
-//       reversArray.push(arr[i])
-//     }
-//     return reversArray
-// }
 //
-// console.log(reversArray(arr))
+// // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+//
+// // let arr  = [10,20,30,40,50];
+// //
+// // let reversArray = (arr) => {
+// //    let reversArray = [];
+// //     for (let i = arr.length-1; i >=0 ; i--) {
+// //       reversArray.push(arr[i])
+// //     }
+// //     return reversArray
+// // }
+// //
+// // console.log(reversArray(arr))
