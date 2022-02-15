@@ -123,3 +123,47 @@
 //     return emptyArr.map(value => value.toString())
 // }
 // console.log(mapArray(100,50))
+
+// - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
+//     let nums = [11,21,3];
+// sortNums('ascending') // [3,11,21]
+// sortNums('descending') // [21,11,3]
+
+//
+// let sortFunction = (arr,direction) => {
+//     if (direction === 'ascending') {
+//         arr.sort((a,b) => a-b )
+//     } else if (direction === 'descending') {
+//         arr.sort((a,b) => b-a)
+//     } else console.error('You enter wrong data')
+//       return arr;
+// }
+//
+// console.log(sortFunction([5,2,9,1,8,3,7,4,6,10],'bla'));
+
+
+
+// -- відсортувати його за спаданням за monthDuration
+// -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
+
+
+
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
+
+// let sortArray = (arr) => {
+//   arr.sort((a,b) => b.monthDuration - a.monthDuration)
+//     return arr
+// }
+// console.log(sortArray(coursesAndDurationArray));
+
+// let filterArray = (arr) => {
+//     return arr.filter((value => value.monthDuration >= 5))
+// }
+// console.log(filterArray(coursesAndDurationArray))
