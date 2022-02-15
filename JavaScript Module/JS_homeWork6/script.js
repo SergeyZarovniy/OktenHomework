@@ -76,3 +76,50 @@
 //classWork//
 
 // - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
+
+// let arrayInnerFunction = (length,num) => {
+//     let emptyArray = [];
+//     for (let i = 0; i < length; i++) {
+//         emptyArray.push(Math.floor(Math.random()*num))
+//     }
+//     return emptyArray
+// }
+//
+// console.log(arrayInnerFunction(100,100))
+
+// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. Відсортувати його за допомоги sort
+
+// let randomArrayFunction = (length,num) => {
+//     let emptyArr = [];
+//     for (let i = 0; i < length; i++) {
+//        emptyArr.push(Math.floor(Math.random()*num))
+//     }
+//    return emptyArr.sort((a,b) => a-b)
+// }
+//
+// console.log(randomArrayFunction(100,100))
+
+
+// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. відфільтрувати  його за допомоги filter, залишивши тільки парні числа
+
+// let filterArrayFunction = (length,num) => {
+//     let emptyArray = [];
+//     for (let i = 0; i < length; i++) {
+//        emptyArray.push(Math.floor(Math.random()*num))
+//     }
+//     return emptyArray.filter((value => value%2 ===0))
+// }
+// console.log(filterArrayFunction(100,50))
+
+
+// - створити масив рандомних цілих числових значень (або згенерувати, за допомоги попередньої функції) . за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
+
+
+// let mapArray = (length,num) => {
+//     let emptyArr = [];
+//     for (let i = 0; i < length; i++) {
+//         emptyArr.push(Math.floor(Math.random()*num))
+//     }
+//     return emptyArr.map(value => value.toString())
+// }
+// console.log(mapArray(100,50))
