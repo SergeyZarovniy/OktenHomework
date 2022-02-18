@@ -133,41 +133,91 @@
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 
 
-class Car {
-    constructor(model,manufacturer,year,maxSpeed,engineCapacity) {
-        this.model = model
-        this.manufacturer = manufacturer
-        this.year = year
-        this.maxSpeed = maxSpeed
-        this.engineCapacity = engineCapacity
-        this.drive = function () {
-            console.log(`їдемо зі швидкістю ${maxSpeed} на годину`)
-        }
-        this.info = function () {
-            console.log(`
-            Model:${model}
-            Manufacturer:${manufacturer}
-            Year:${year}
-            Max Speed:${maxSpeed}
-            Engine Capacity:${engineCapacity}`)
-        }
-        this.increaseMaxSpeed = function (newSpeed) {
-            this.maxSpeed = maxSpeed + newSpeed
-        }
-        this.changeYear = function (newValue) {
-            this.year = newValue
-        }
-        this.addDriver = function (driver) {
-            this.driver = driver
-        }
-    }
-}
+// class Car {
+//     constructor(model,manufacturer,year,maxSpeed,engineCapacity) {
+//         this.model = model
+//         this.manufacturer = manufacturer
+//         this.year = year
+//         this.maxSpeed = maxSpeed
+//         this.engineCapacity = engineCapacity
+//         this.drive = function () {
+//             console.log(`їдемо зі швидкістю ${maxSpeed} на годину`)
+//         }
+//         this.info = function () {
+//             console.log(`
+//             Model:${model}
+//             Manufacturer:${manufacturer}
+//             Year:${year}
+//             Max Speed:${maxSpeed}
+//             Engine Capacity:${engineCapacity}`)
+//         }
+//         this.increaseMaxSpeed = function (newSpeed) {
+//             this.maxSpeed = maxSpeed + newSpeed
+//         }
+//         this.changeYear = function (newValue) {
+//             this.year = newValue
+//         }
+//         this.addDriver = function (driver) {
+//             this.driver = driver
+//         }
+//     }
+// }
+//
+// let mazdaCar = new Car('Mazda3','MAZDA',2006,230,2.0)
+// console.log(mazdaCar);
+// mazdaCar.drive();
+// mazdaCar.info();
+// mazdaCar.increaseMaxSpeed(500);
+// mazdaCar.changeYear(2000);
+// mazdaCar.addDriver('Zarovnii Serghei')
+// console.log(mazdaCar);
 
-let mazdaCar = new Car('Mazda3','MAZDA',2006,230,2.0)
-console.log(mazdaCar);
-mazdaCar.drive();
-mazdaCar.info();
-mazdaCar.increaseMaxSpeed(500);
-mazdaCar.changeYear(2000);
-mazdaCar.addDriver('Zarovnii Serghei')
-console.log(mazdaCar);
+
+// -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
+// Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+//     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
+//     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+
+// class Cinderella {
+//     constructor(name,age,size) {
+//         this.name = name
+//         this.age = age
+//         this.size = size
+//     }
+// }
+// let cinderellasArray = [
+//     new Cinderella('Yana',27,37.5),
+//     new Cinderella('Wika',15,36),
+//     new Cinderella('Angela',45,38),
+//     new Cinderella('Aliona',22,39),
+//     new Cinderella('Yulia',29,37),
+//     new Cinderella('Agnezka',28,39.5),
+//     new Cinderella('Tamara',48,34.5),
+//     new Cinderella('Maria',56,36.5),
+//     new Cinderella('Liudmila',85,41),
+//     new Cinderella('Borislawa',100,45)
+// ]
+//
+// class Prince {
+//     constructor(name,age,findShoos) {
+//         this.name = name
+//         this.age = age
+//         this.findShoos = findShoos
+//     }
+// }
+//
+// let prince = new Prince('Serghei',30,37.5);
+
+
+// let cinderellaFinder = (cindArr,prince) => {
+//     for (const cindArrElement of cindArr) {
+//         if(cindArrElement.size === prince.findShoos) {
+//             console.log(`I find my cinderella!!! Her name is ${cindArrElement.name}`)
+//         }
+//     }
+// }
+
+// cinderellaFinder(cinderellasArray,prince);
+
+// let findCinderella = cinderellasArray.find((value => value.size === prince.findShoos))
+// console.log(findCinderella);
